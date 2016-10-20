@@ -1,0 +1,129 @@
+html,
+body {
+  margin: 0px; 
+  padding: 0px; 
+  border: 0px;
+  overflow: hidden;
+}
+
+#container { 
+	width: 100vw; 
+	height: 96vh; 
+	float: top;
+	overflow: hidden; 
+	background: white;
+	color: black;
+}
+
+#fileArea {
+	display: block;
+	overflow: hidden;
+	width: 100vw;
+	height: 2vh;
+	background: black;
+	color: white;
+	font-weight : bold;
+	font-size : 15px;
+	font-family : "Courier New", Courier, monospace; /*"Trebuchet MS", Helvetica, sans-serif;*/	
+}
+
+#commandArea {
+	display: block;
+	overflow: hidden;
+	width: 100vw;
+	height: 2vh;
+	background: white;
+	color: blue;
+	font-weight : bold;
+	font-size : 15px;
+	font-family : "Courier New", Courier, monospace; /*"Trebuchet MS", Helvetica, sans-serif;*/	
+	resize: none; 
+}
+
+.hljs {
+	display: block;
+	overflow: scroll;
+	background: white;
+	/*background-position: top left;*/ 
+	color: black;
+	font-weight : bold;
+	font-size : 15px;
+	font-family : "Courier New", Courier, monospace; /*"Trebuchet MS", Helvetica, sans-serif;*/
+	width: 100vw; 
+	height: 94vh;
+	position : relative;
+}
+
+.hljs:focus {
+    outline: none !important;
+    border:0px solid white;
+    box-shadow: 0 0 0px white;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #0A9144;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-addition {
+  color: #0800FF;
+}
+
+/* strings, <unistd.h>, std::map etc. */
+.hljs-number,
+.hljs-string,
+.hljs-meta .hljs-meta-string,
+.hljs-literal,
+.hljs-doctag,
+.hljs-regexp {
+  color: #FF0000;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #0800FF;
+}
+
+.hljs-attribute,
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type {
+  color: #021666;
+}
+
+/* #include, using namespace, unsigned long etc. */
+/* visual studio blue */
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+  color: #0800FF;
+}
+
+.hljs-built_in,
+.hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-formula {
+  background: #EFD9AC;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
